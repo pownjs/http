@@ -1,0 +1,28 @@
+{
+  "name": "@pown/http",
+  "version": "2.0.0",
+  "description": "Pownage guaranteed",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pownjs/pown-http.git"
+  },
+  "keywords": [
+    "exploit",
+    "framework"
+  ],
+  "author": "pdp <pdp@gnucitizen.org>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pownjs/pown-http/issues"
+  },
+  "homepage": "https://github.com/pownjs/pown-http#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@pown/toolchain": "^2.0.0"
+  }
+}
