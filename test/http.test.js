@@ -247,4 +247,10 @@ describe('http', () => {
 
         assert.equal(b, 'HTTP/1.1 200 \r\n\r\n')
     })
+
+    it('detectLineDelimiter', () => {
+        assert.equal(http.detectLineDelimiter(''), '\n')
+        assert.equal(http.detectLineDelimiter('\n'), '\n')
+        assert.equal(http.detectLineDelimiter('\r\n'), '\r\n')
+    })
 })
