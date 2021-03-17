@@ -23,6 +23,6 @@
   "homepage": "https://github.com/pownjs/pown-http#readme",
   "dependencies": {},
   "devDependencies": {
-    "@pown/toolchain": "^2.0.0"
+    "@pown/toolchain": "^2.1.0"
   }
 }
